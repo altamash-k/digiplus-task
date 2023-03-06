@@ -11,10 +11,10 @@ const Home = () => {
     status: "",
   });
 
-//   const [status, setStatus] = useState()
+  const [statusPage, setStatus] = useState()
 
-//   if(status)
-//     return <Home />
+  if(statusPage)
+    return <Home />
 
   function onChangeHandle(e){
     setUsers({
@@ -27,7 +27,7 @@ const Home = () => {
     e.preventDefault();
     try {
       await axios.post(`http://localhost:3333/users/`, users);
-    //   setStatus(true);
+      setStatus(true);
     } catch(error) {
       console.log("Something went wrong");
     }
