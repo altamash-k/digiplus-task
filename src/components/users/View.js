@@ -25,7 +25,7 @@ const View = () => {
     <>
         
         <div class="card">
-            <p>Name: <strong>{user.stuname}</strong></p>
+            <p>Name: <strong>{user.username}</strong></p>
             <p>Email: <strong>{user.email}</strong></p>
             <p>Status: <strong>{user.status}</strong></p>
             <button style={{color: "black"}}><Link to={'/'}>Back to Home</Link></button>
