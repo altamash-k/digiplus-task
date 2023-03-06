@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+#To run this project: 
+start json server by 
+### `json-server --watch db.json --port 3333`
+
+for working of fake api json server
+
+to run app: 
+### `npm i`
+### `npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
