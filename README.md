@@ -1,80 +1,36 @@
-# Getting Started with Create React App
+# Digi Plus IT Assignment Task
 
-#To run this project: 
-start json server by 
+## To run this project: 
+
+### Install json server globally by following command:
+
+### `npm install -g json-server`
+
+### Then start the json server for working of fake api through the below command: 
 ### `json-server --watch db.json --port 3333`
 
-for working of fake api json server
 
-to run app: 
+### To run react app:
+
 ### `npm i`
 ### `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### To view the dummy data, open [http://localhost:3333/users](http://localhost:3333/users)
 
-## Available Scripts
+### To view the react app, open [http://localhost:3000](http://localhost:3000)
 
-In the project directory, you can run:
+----------
 
-### `npm start`
+## Project Snapshots:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page to Add Users and List all the users:
+![Screenshot (1034)](https://user-images.githubusercontent.com/68541274/223181727-b4dbbb9b-c67b-4c89-bc87-abed7f0f1489.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### View Page to view complete details of the particular user:
+![Screenshot (1035)](https://user-images.githubusercontent.com/68541274/223181752-8369b527-504e-4975-a4ef-4e8762a22ecf.png)
 
-### `npm test`
+### Edit/Upadete Page to update any info of the user:
+![Screenshot (1036)](https://user-images.githubusercontent.com/68541274/223181769-71e56067-f558-46c2-93e8-de626a252e02.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Delete Functionlity to delete the user from list of tables and getting the updated list after refreshing the page:
+![Screenshot (1037)](https://user-images.githubusercontent.com/68541274/223181795-7d79f145-f739-4674-933b-fed06d439267.png)
