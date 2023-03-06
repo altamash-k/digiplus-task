@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import "./List.css"
 import { IconButton } from '@mui/material'
+import { Visibility, Edit, DeleteForever } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
@@ -18,7 +19,7 @@ const List = () => {
             }
         }
         getUsersData()
-    })
+    }, [])
 
     const handleDelete = async id => {
         axios.delete(`http://localhost:3333/users/${id}`);
@@ -41,10 +42,10 @@ const List = () => {
                 return (
                     <tr key={i}>
                         <td>{i+1}</td>
-                        <td>{user.stuname}</td>
-                        <td><Link to={`/view/${user.id}`}><i class="fa-solid fa-eye"></i></Link></td>
-                        <td><Link to={`/edit/${user.id}`}><i class="fa-solid fa-pencil"></i></Link></td>
-                        
+                        <td>{user.username}</td>
+                        <td><IconButton><Link to={`/view/${user.id}`}><Visibility color="primary" /></Link></IconButton></td>
+                        <td><IconButton><Link to={`/edit/${user.id}`}><Edit /></Link></IconButton></td>
+                        <td><IconButton onClick={() => handleDelete(user.id)}><DeleteForever color="secondary" /></IconButton></td>
                     </tr>
                 )
             })
